@@ -1,9 +1,14 @@
 import React from 'react';
+import '../../css/about.css';
 
 function About() {
     return (
         <div>
             <section id="aboutme">
+                <section class="profile-pic">
+                    <img src={require(`../../assets/images/profilepic.webp`)} alt="/" />
+                    
+                </section>  
                 <h2 class="section-title">About Me</h2>
                 <p class="aboutme-info">
                     Hello, I am Chris.

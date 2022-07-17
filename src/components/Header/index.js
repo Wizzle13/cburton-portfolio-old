@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Nav from '../Nav';
 
+
+
 function Header() {
+  const [contactSelected, setContactSelected] = useState(false);
     return (
         <header className="flex-row px-1">
           <h2>
@@ -9,7 +12,10 @@ function Header() {
               <span>Chris Burton</span>
             </a>
           </h2>
-          <Nav></Nav>
+          <Nav>
+            contactSelected={contactSelected}
+            setContactSelected={setContactSelected}
+          </Nav>
         </header>
     );
 }
