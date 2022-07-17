@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cburton-portfolio/static/css/main.2cd0bf66.css",
+    "main.js": "/cburton-portfolio/static/js/main.d1086d6d.js",
+    "static/js/787.b5ec913f.chunk.js": "/cburton-portfolio/static/js/787.b5ec913f.chunk.js",
+    "static/media/Linkedin.png": "/cburton-portfolio/static/media/Linkedin.4f880a48eec5737eb58b.png",
+    "static/media/Github.png": "/cburton-portfolio/static/media/Github.50a9ce28dfa9ddc2851c.png",
+    "index.html": "/cburton-portfolio/index.html",
+    "main.2cd0bf66.css.map": "/cburton-portfolio/static/css/main.2cd0bf66.css.map",
+    "main.d1086d6d.js.map": "/cburton-portfolio/static/js/main.d1086d6d.js.map",
+    "787.b5ec913f.chunk.js.map": "/cburton-portfolio/static/js/787.b5ec913f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cd0bf66.css",
+    "static/js/main.d1086d6d.js"
+  ]
+}
