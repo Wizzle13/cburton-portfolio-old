@@ -6,11 +6,11 @@ function Resume() {
             <section id="resume">
                 <h2 class="section-title">Resume</h2>
                 <p class="resume">
-                    Download my <a href="../../assets/CBurtonResume.pdf">Resume</a>
+                    Download my <a href="../../assets/CBurtonResume.pdf" download>Resume</a>
                     <ul>
                     Front-end proficiencies
                         <li>React</li>
-                        <li><img src={require(`../../assets/images/HTML5.svg`)} alt="HTML" /></li>
+                        <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
                         <li>BootStrap</li>
