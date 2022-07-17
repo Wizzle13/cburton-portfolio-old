@@ -9,7 +9,7 @@ function Header() {
               <span>Chris Burton</span>
             </a>
           </h2>
-          <Nav />
+          <Nav></Nav>
         </header>
     );
 }
