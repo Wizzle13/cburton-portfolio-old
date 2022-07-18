@@ -5,25 +5,29 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Resume from './components/Resume';
 import ContactForm from './components/Contact';
-import Portfolio from './components/Portfolio';
+// import Portfolio from './components/Portfolio';
 
 
 
 function App() {
-  const [contactSelected] = useState(false);
+  const [contactSelected, setContactSelected] = useState(false);
   return (
     <div >
-      <Header></Header>
+      <Header>
+          contactSelected={contactSelected}
+            setContactSelected={setContactSelected}
+      </Header>
       <main>
         <div>
         {!contactSelected ? (
           <>
             <About></About>
-          </>
+            {/* <Portfolio></Portfolio> */}
+            <Resume></Resume>
+                      </>
         ) : (
-          <Portfolio></Portfolio>,
-                        
-            <Resume></Resume>,
+                    
+            
             <ContactForm></ContactForm>
           )}
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Nav(props) {
     const {
-        contactSelected,
+        // contactSelected,
         setContactSelected
       } = props;
     return (
@@ -13,13 +13,13 @@ function Nav(props) {
                 About Me
                 </a>
             </li>
-            <li className ={`mx-2 ${contactSelected && 'navActive'}`}>
+            <li className = "mx-2" >
                 <span onClick={() => setContactSelected(false)}>Portfolio</span>
             </li>
-            <li className = {`mx-2 ${!contactSelected && `navActive`}`}>
+            <li className = "mx-2" >
                 <span onClick={() => setContactSelected(true)}>Contact</span>
             </li>
-            <li className = {`mx-2 ${contactSelected && 'navActive'}`}>
+            <li className = "mx-2" >
                 <span onClick={() => setContactSelected(false)}>Resume</span>
             </li>
             </ul>  
