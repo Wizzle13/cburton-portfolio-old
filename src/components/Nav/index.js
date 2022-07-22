@@ -1,26 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav(props) {
-    const {
-        // contactSelected,
-        setContactSelected
-      } = props;
+    
     return (
         <nav>
             <ul className="flex-row">
             <li className="mx-2">
-                <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-                About Me
-                </a>
+                <Link to="/">About Me</Link>
             </li>
             <li className = "mx-2" >
-                <span onClick={() => setContactSelected(false)}>Portfolio</span>
+                <Link to="/portfolio">Portfolio</Link>
             </li>
             <li className = "mx-2" >
-                <span onClick={() => setContactSelected(true)}>Contact</span>
+                <Link to="/contact">Contact</Link>
             </li>
             <li className = "mx-2" >
-                <span onClick={() => setContactSelected(false)}>Resume</span>
+                <Link to="/resume">Resume</Link>
             </li>
             </ul>  
         </nav>
