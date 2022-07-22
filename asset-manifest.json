@@ -1,18 +1,23 @@
 {
   "files": {
     "main.css": "/cburton-portfolio/static/css/main.d4ad38a8.css",
-    "main.js": "/cburton-portfolio/static/js/main.72a63dc0.js",
-    "static/js/787.b5ec913f.chunk.js": "/cburton-portfolio/static/js/787.b5ec913f.chunk.js",
+    "main.js": "/cburton-portfolio/static/js/main.064b7388.js",
+    "static/js/757.28971153.chunk.js": "/cburton-portfolio/static/js/757.28971153.chunk.js",
+    "static/media/horiseon.jpg": "/cburton-portfolio/static/media/horiseon.a0439288afd523f871a8.jpg",
+    "static/media/codersblog.jpg": "/cburton-portfolio/static/media/codersblog.3d5fbdc1970e54bb38be.jpg",
+    "static/media/pokebook.jpg": "/cburton-portfolio/static/media/pokebook.9fc416ef58e72d364c89.jpg",
+    "static/media/run-buddy.jpg": "/cburton-portfolio/static/media/run-buddy.6276beb27a0f1c9ff87f.jpg",
     "static/media/profilepic.webp": "/cburton-portfolio/static/media/profilepic.f5dd00735452fc3339f4.webp",
     "static/media/Linkedin.png": "/cburton-portfolio/static/media/Linkedin.4f880a48eec5737eb58b.png",
     "static/media/github.webp": "/cburton-portfolio/static/media/github.904b6c16276a6bb4eadb.webp",
+    "static/media/HTML5.svg": "/cburton-portfolio/static/media/HTML5.bf52b8cfb9729229217d.svg",
     "index.html": "/cburton-portfolio/index.html",
     "main.d4ad38a8.css.map": "/cburton-portfolio/static/css/main.d4ad38a8.css.map",
-    "main.72a63dc0.js.map": "/cburton-portfolio/static/js/main.72a63dc0.js.map",
-    "787.b5ec913f.chunk.js.map": "/cburton-portfolio/static/js/787.b5ec913f.chunk.js.map"
+    "main.064b7388.js.map": "/cburton-portfolio/static/js/main.064b7388.js.map",
+    "757.28971153.chunk.js.map": "/cburton-portfolio/static/js/757.28971153.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4ad38a8.css",
-    "static/js/main.72a63dc0.js"
+    "static/js/main.064b7388.js"
   ]
 }
