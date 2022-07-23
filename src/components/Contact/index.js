@@ -43,7 +43,7 @@ function ContactForm() {
                 <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5"  />
                 {errorMessage && (
                     <div>
-                        <p className="error-text">{errorMessage}</p>
+                        <p className='error-text'>{errorMessage}</p>
                     </div>
                 )}
             </div>

@@ -6,12 +6,12 @@ function About() {
     return (
         <div>
             <section id="aboutme">
-                <section class="profile-pic">
+                <section className='profile-pic'>
                     <img src={require(`../../assets/images/profilepic.webp`)} alt="/" />
                     
                 </section>  
-                <h2 class="section-title">About Me</h2>
-                <p class="aboutme-info">
+                <h2 className='section-title'>About Me</h2>
+                <p className='aboutme-info'>
                     Hello, I am Chris.
                     <br/>
                     <br/>

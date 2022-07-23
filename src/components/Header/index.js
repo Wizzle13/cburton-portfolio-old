@@ -6,7 +6,7 @@ import Nav from '../Nav';
 function Header() {
   const [contactSelected, setContactSelected] = useState(false);
     return (
-        <header className="flex-row px-1">
+        <header className='flex-row px-1'>
           <h2>
             <a data-testid="link" href="/">
               <span>Chris Burton</span>

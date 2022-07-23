@@ -4,11 +4,16 @@ function Resume() {
     return(
         <div>
             <section id="resume">
-                <h2 class="section-title">Resume</h2>
-                <p class="resume">
+                <h2 className='section-title'>Resume</h2>
+                <p className='resume'>
                     Download my <a href="../../assets/CBurtonResume.pdf" download>Resume</a>
+                    <br />
+                    <br />
+                    <p>
+                        Front-end proficiencies
+                    </p>
                     <ul>
-                    Front-end proficiencies
+                    
                         <li>React</li>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -17,8 +22,10 @@ function Resume() {
                         <li>JQuery</li>
                         <li>Handlebar.js</li>
                     </ul>
+                    <p>
+                        Back-end proficiencies
+                    </p>    
                     <ul>
-                    Back-end proficiencies
                         <li>Node.js</li>
                         <li>Express.js</li>
                         <li>MySQL</li>

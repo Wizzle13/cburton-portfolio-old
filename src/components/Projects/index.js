@@ -39,17 +39,16 @@ function Project() {
         }
     ]);
 
-    const currentPhotos = projects.filter();
+    // const currentPhotos = projects.filter() 
     return (
         <section>
             <div>
-            
-                <div className="flex-row">
-                    {currentPhotos.map((image, i) => (
+                <div className='flex-row'>
+                    {projects.map((image, i) => (
                     <img
                         src={require(`../../assets/images/${image}`).default}
                         alt={image.name}
-                        className="img-thumbnail mx-1"
+                        className='img-thumbnail mx-1'
                         key={image.name}
                     />
                     ))}
